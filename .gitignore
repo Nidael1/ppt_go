@@ -1,0 +1,33 @@
+# Go
+/ppt_go
+/ppt_go.exe
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+/vendor/
+
+# Frontend
+web/node_modules/
+web/dist/
+
+# Env y configs locales
+.env
+.env.local
+*.local
+
+# Scores (opcional — comentar si se quiere versionar la tabla)
+scores.json
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
